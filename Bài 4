@@ -43,4 +43,5 @@ int main() {
 
     return 0;
 }
-// logN
+// Time logN
+// Memory 1
