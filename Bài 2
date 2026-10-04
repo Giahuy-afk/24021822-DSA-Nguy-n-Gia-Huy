@@ -1,0 +1,31 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+void sapXepTangDan(vector<int>& a) {
+    sort(a.begin(), a.end());
+}
+
+int main() {
+    int n;
+    cout << "Nhap N: ";
+    cin >> n;
+
+    vector<int> a(n);
+    cout << "Nhap " << n << " phan tu: ";
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    sapXepTangDan(a);
+
+    cout << "Day sau khi sap xep: ";
+    for (int x : a) {
+        cout << x << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
