@@ -20,3 +20,4 @@ int main() {
     cout << n << "! = " << giaiThua << endl;
     return 0;
 }
+// N
