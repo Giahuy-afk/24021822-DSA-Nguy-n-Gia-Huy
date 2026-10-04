@@ -29,4 +29,5 @@ int main() {
 
     return 0;
 }
-// NlogN
+// Time NlogN
+// Memory N
