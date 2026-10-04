@@ -20,4 +20,5 @@ int main() {
     cout << "Tong cac phan tu trong day: " << sum << endl;
     return 0;
 }
-// N
+// Time N
+// Memory N
